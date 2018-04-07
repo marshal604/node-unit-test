@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "practice node test case",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js *.test.js",
+    "test-auto": "nodemon --exec \"npm test\""
+  },
+  "author": "yur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^5.0.5",
+    "rewire": "^3.0.2",
+    "supertest": "^3.0.0"
+  }
+}
